@@ -2,7 +2,7 @@ from flask import Flask, request, render_template, flash, send_file
 from inference import text2image
 
 app = Flask(__name__)
-app.secret_key = "super secret key"
+app.secret_key = "tSmPkVPi9ig-237T05z5aA"
 # RuntimeError: The session is unavailable because no secret key was set.
 
 # os.mkdir("static")
